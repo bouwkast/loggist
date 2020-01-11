@@ -1,0 +1,1 @@
+nuget pack src/loggist/loggist.nuspec
