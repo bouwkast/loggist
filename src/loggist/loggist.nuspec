@@ -2,9 +2,11 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>loggist</id>
-    <version>1.0.0</version>
+    <version>1.0.0-alpha</version>
     <authors>Steven Bouwkamp</authors>
     <owners>Steven Bouwkamp</owners>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/bouwkast/loggist</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A .NET library logging framework that ties into your project and provides integration with Microsoft.Extensions.Logging.Abstractions - serves as a replacement to LibLog.</description>
     <dependencies>
@@ -12,6 +14,7 @@
         <dependency id="Microsoft.Extensions.Logging.Abstractions" version="3.1.0" exclude="Build,Analyzers" />
       </group>
     </dependencies>
+    <copyright>Steven Bouwkamp 2020</copyright>
     <tags>logging, framework, serilog, nlog, log4net</tags>
     <contentFiles>
         <files include="*.cs.pp" />

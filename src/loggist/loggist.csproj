@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>YourRootNamespace</RootNamespace>
+    <Version>1.0.0-alpha</Version>
   </PropertyGroup>
 
   <ItemGroup>
