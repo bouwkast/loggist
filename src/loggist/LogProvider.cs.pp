@@ -4,11 +4,11 @@ using Microsoft.Extensions.Logging.Abstractions;
 namespace YourRootNamespace
 {
 
-    internal class LogProvider<TCategoryName>
+    internal static class LogProvider<TCategoryName>
     {
-        private ILogger<TCategoryName> _logger;
+        private static ILogger<TCategoryName> _logger;
 
-        private ILogger<TCategoryName> GetCurrentClassLogger()
+        public static ILogger<TCategoryName> GetCurrentClassLogger()
         {
             if (LoggingConfiguration.LoggerFactory == null || LoggingConfiguration.LoggerFactory.GetType() == typeof(NullLoggerFactory))
             {
