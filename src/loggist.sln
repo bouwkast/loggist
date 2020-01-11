@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "loggist", "loggist\loggist.csproj", "{0AE2DCB3-3FE1-49CC-84E9-522F46042D27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "loggist", "loggist\loggist.csproj", "{0AE2DCB3-3FE1-49CC-84E9-522F46042D27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "loggist.Example.Library", "loggist.Example.Library\loggist.Example.Library.csproj", "{A06BE1F3-F19F-44C1-88EB-350DC8AD29D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0AE2DCB3-3FE1-49CC-84E9-522F46042D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AE2DCB3-3FE1-49CC-84E9-522F46042D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AE2DCB3-3FE1-49CC-84E9-522F46042D27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A06BE1F3-F19F-44C1-88EB-350DC8AD29D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A06BE1F3-F19F-44C1-88EB-350DC8AD29D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A06BE1F3-F19F-44C1-88EB-350DC8AD29D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A06BE1F3-F19F-44C1-88EB-350DC8AD29D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
