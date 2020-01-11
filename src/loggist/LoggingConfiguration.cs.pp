@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace YourRootNamespace
+namespace $rootnamespace$.Logging
 {
     public static class LoggingConfiguration
     {

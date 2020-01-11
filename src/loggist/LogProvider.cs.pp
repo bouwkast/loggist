@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
 
-namespace YourRootNamespace
+namespace $rootnamespace$.Logging
 {
 
     internal static class LogProvider<TCategoryName>
