@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "loggist", "loggist\loggist.csproj", "{0AE2DCB3-3FE1-49CC-84E9-522F46042D27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AE2DCB3-3FE1-49CC-84E9-522F46042D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE2DCB3-3FE1-49CC-84E9-522F46042D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE2DCB3-3FE1-49CC-84E9-522F46042D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE2DCB3-3FE1-49CC-84E9-522F46042D27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B89B8761-AE4B-4DFB-97B6-B10B88A9C26D}
+	EndGlobalSection
+EndGlobal
